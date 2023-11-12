@@ -335,7 +335,7 @@ public class ViewBanHang extends javax.swing.JFrame {
         HoaDonResponse hoaDonResponse = listHoaDons.get(indexHoaDonSelected);
 
         // add to list hoa don chi tiet
-        String soLuong = JOptionPane.showInputDialog("Số lương ", "0");
+        String soLuong = JOptionPane.showInputDialog("Quantity", "0");
         HoaDonChiTietResponse hoaDonChiTietResponse = new HoaDonChiTietResponse();
         hoaDonChiTietResponse.setDonGia(sanPhamResponse.getGiaNhap());
         hoaDonChiTietResponse.setTenSanPham(sanPhamResponse.getTenSanPham());
